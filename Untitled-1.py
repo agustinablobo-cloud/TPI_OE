@@ -69,4 +69,14 @@ def ingresar_legajo(empleados):
 
         except ValueError as e:
             print(e)
-            
+
+
+def buscar_empleado(empleados, legajo):
+
+    for empleado in empleados:
+
+        if empleado["legajo"] == legajo:
+            return empleado
+
+    return None
+
