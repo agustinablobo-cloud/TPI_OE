@@ -25,15 +25,48 @@ def cargar_csv(csv):
         print("Error: No se encontro el archivo")
 
     except ValueError as e:
-        print(f"ValueError: {e}")
+        print(f"Error en los datos: {e}")
 
     except IndexError:
         print("Error: Faltan columnas en el CSV")
 
-    except Exception as e:
-        print("Ocurrio el siguiente error: ", type(e).__name__)
-        print(e)
+    
 
     return empleados
 
+
+def ingresar_legajo(empleados):
+
+    while True:
+        try:
+
+            legajo = input("Ingresa su legajo: ")
+
+            if legajo == "":
+                raise ValueError("Error: el legajo no puede estar vacio")
+            
+            if not legajo.isdigit():
+                raise ValueError("Error: debe ingresar un numero entero")
+            
+            legajo_a_cargar = int(legajo)
+
+            if legajo_a_cargar <= 0:
+                raise ValueError("Error: el legajo debe ser mayor a 0")
+            
+
+            existe = False
+
+            for empleado in empleados:
+                if empleado["legajo"] == legajo_a_cargar:
+                    existe = True
+                    break
+            
+            if not existe:
+                raise ValueError("Error: el legajo no existe")
+            
+            return legajo_a_cargar
+
+
+        except ValueError as e:
+            print(e)
             
