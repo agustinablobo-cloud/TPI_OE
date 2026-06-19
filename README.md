@@ -4,7 +4,7 @@ Alumnas: Agustina Lobo & Chiara Aquino
 
 Fecha de entrega: 19/06/2026
 
-Titulo del trabajo:
+Titulo del trabajo: Trabajo Practico Integrador
 
 
 # DESCRIPCIÓN DEL PROYECTO
