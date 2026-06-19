@@ -41,7 +41,7 @@ Proyecto/
 2. Instalar las dependencias:
 pip install python-telegram-bot
 
-# Ejecución
+# EJECUCION
 
 Desde la terminal ejecutar:
 python bot.py
