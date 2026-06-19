@@ -1,1 +1,17 @@
-# TPI_OE
+# UNIVERISDAD TECNOLOGICA NACIONAL (UTN) --- TPI --- ORGANIZACION EMPRESARIAL --- 2026
+
+Alumnas: Agustina Lobo & Chiara Aquino
+
+Fecha de entrega: 19/06/2026
+
+Titulo del trabajo:
+
+
+# DESCRIPCIÓN DEL PROYECTO
+
+# ESTRUCTURA
+
+# MANEJO DE ERRORES
+
+# RESTRICCIÓN DE GUARDADO
+
